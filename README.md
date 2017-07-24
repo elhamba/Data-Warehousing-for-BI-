@@ -1,1 +1,7 @@
-# Data-Warehousing-for-BI-
+# Data-Warehousing-for-BI
+Intercollegiate Athletic Database Tables
+The Intercollegiate Athletic database is used in assignments 1 and 2. This document describes the tables and relationships.
+Table Description and Usage
+The Intercollegiate Athletic database supports the scheduling and operation of events.  Customers initiate event requests with the Intercollegiate Athletic Department.  Events are sometimes scheduled several months in advance.  The facility and date held are recorded on an event request.  If an event request is denied, no additional action is taken.  If an event request is approved, one or more event plans are made.  Typically, event plans are made for the setup, operation, and clean up of an event.  An employee is assigned to manage an event plan before the plan is executed.  Initially, there may not be an assigned employee.  An event plan consists of one or more event plan lines.  In an event plan line, the resource, location, time, and number of resources (EventPlanLine.Number) are recorded.
+The EventRequest table is the hub of the database.  An event request represents an event scheduled at a facility. For example, a basketball game may be scheduled at the gymnasium.  Holding an event involves plans for allocation of resources including personnel and equipment.  The EventPlan table contains plans for the setup, operation, and cleanup of an event.  The EventPlanLine table contains the individual resources required in an event plan. Resources are assigned to specific locations of a facility. For example, guards may be required at the gates of the football stadium.  
+
